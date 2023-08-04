@@ -22,4 +22,8 @@ mongoose
   });
 
 app.get('/', (req, res) => res.send('hello world!'));
+app.post('/register', (req, res) =>
+  // 회원가입 할 때 필요한 정보들을
+  res.send('')
+);
 app.listen(port, () => console.log(`example app listening on ${port}`));
